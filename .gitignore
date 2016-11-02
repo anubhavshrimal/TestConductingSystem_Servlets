@@ -1,0 +1,4 @@
+**/*.class
+fonts/
+META-INF/
+WEB-INF/classes/

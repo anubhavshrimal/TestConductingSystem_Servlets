@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProgrammersQuiz.com</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+	.btn-md {
+}
+    .btn-dang {
+}
+    </style>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+  
+  <header>
+    <div class="jumbotron">
+        <div class="container">
+          <h1><strong>Welcome, User!!</strong><a style="float: right;" href="LoginSignup1.html" class="btn btn-danger btn-lg btn-outline">Logout</a></h1>
+        </div>
+    </div>
+    </header>
+  <div class="container">
+    <div class="panel-group" id="accordion1">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1"><strong>Add New Account</strong></a></h4>
+        </div>
+        <div id="collapseOne1" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="container col-xs-offset-4">
+<button type="button" class="btn btn-success"><strong>Student</strong></button>
+              <button type="button" class="btn btn-success"><strong>Admin</strong>&nbsp;</button>
+            </div>
+</div>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1"><strong>Edit Question Bank</strong></a></h4>
+        </div>
+        <div id="collapseTwo1" class="panel-collapse collapse">
+          <div class="panel-body">
+            <div class="container col-xs-offset-3">
+              <a href="AdminAddQue" class="btn btn-primary"><strong>Add Question</strong></a>
+              <button type="button" class="btn btn-primary"><strong>Update Question<br>
+              </strong></button>
+              <button type="button" class="btn btn-primary"><strong>Delete Question<br>
+              </strong></button>
+            </div> 
+          &nbsp;</div>
+        </div>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <h4 class="panel-title"><strong><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Delete an Account</a></strong>&nbsp;</h4>
+        </div>
+        <div id="collapseThree1" class="panel-collapse collapse">
+          <div class="panel-body">
+            <div class="row">
+<!-- /.col-lg-6 -->
+              <div class="col-lg-6 col-md-offset-3 col-md-6">
+                <form class="form-inline">
+  <div class="form-group col-md-5">
+    <input type="text" autofocus required class="form-control" placeholder="Enter Username">
+  </div>
+  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-1">Delete</button>
+</form>
+<div class="modal fade" id="modal-1">
+<div class="modal-dialog">
+<div class="modal-content"><div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h3 class="modal-title">Confirmation!</h3></div>
+<div class="modal-body" style="text-align:center">Are you sure you want to Delete this account ??
+<br>This action cannot be undone.</div><div class="modal-footer"><form method="post"
+><input type="submit" class="btn btn-primary" value="Yes"><a href="" class="btn 
+btn-primary"  data-dismiss="modal">No</a>
+               </form> </div></div>  </div>
+          &nbsp;</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+<hr>
+      
+      <footer>
+          <div class="container">
+            <img align="right" src="images/rat.png" alt="Company icon">
+            <p> 
+                <b>About Us :-</b><br>
+                Developed By :- Anubhav Shrimal <br>
+                Guidance :- Mr. Abhishek Jain     
+            </p>
+          </div>
+      </footer>
+    
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.2.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+  </body>
+</html>
